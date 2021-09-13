@@ -99,7 +99,7 @@ a:hover {
     overflow-y: scroll;
     overflow-x: hidden;}
 
-#img1 {
+#img1, #img2 {
     width: 60px;
 }
 
