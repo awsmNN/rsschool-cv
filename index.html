@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Summary</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+    <title>CV_RSS</title>
 </head>
 
 <body>
@@ -23,6 +26,7 @@
     <div class="content">
         <h1>Valeria Ivanova</h1>
         <h3>Front-End Developer</h3>
+        <img id="img_prof" src="https://cdn3.savepice.ru/uploads/2021/9/13/f3650c9fd9bf40f708c115095c8382a9-full.jpg" alt="img_cv">
 
         <h4 id="p1">Profile</h4>
         <ul>
@@ -302,33 +306,48 @@
 
 
         <h4 id="ex1">Experience</h4>
+
         <p>Example1</p>
+
+        <pre><code>
+            let a = 10;
+            let b = 20;
+            console.log(a+b);
+        </code></pre>
+        
+
         <p>Example2</p>
-        <p>Example3</p>
-        <p>Example4</p>
+
+        <a href="https://torirechka.github.io/rsschool-cv/">
+            <img id="img1"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png"
+                alt="github">
+        </a>
+        
 
         <h4 id="l1">Languges</h4>
         <p> Russian: native language;</p>
         <p> English: Intermadiate-B2</p>
     </div>
 
-    <footer>
+    <footer class="ftr">
 
         <div class="footer_list">
 
             <a href="https://github.com/torirechka">
-                <img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png"
+                <img id="img1"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png"
                     alt="github">
             </a>
 
             <a href="https://github.com/torirechka" rel=""></a>
 
             <p>© 2021</p>
-            
-                <a href="https://rs.school/js/">
-                    <span class="icon_rsschool"></span>
-                </a>
-            
+
+            <a href="https://rs.school/js/">
+                <span class="icon_rsschool"></span>
+            </a>
+
         </div>
 
     </footer>
