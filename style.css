@@ -1,3 +1,24 @@
+@media (max-width: 420px) {
+    header
+    {
+        display: none;
+        position:fixed;
+        justify-content:space-between;
+        
+    }
+}
+
+
+@media (max-width: 319px) {
+    header
+    {
+        display: none;
+        position:fixed;
+        justify-content:space-between;
+        
+    }
+}
+
 * {
 	box-sizing: border-box;
 	margin: 10px;
@@ -6,8 +27,9 @@
     list-style: none;
     text-decoration: none;
     color: rgb(39, 39, 39);
-    
-    
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
 }
 
 .content {
@@ -25,11 +47,20 @@ text-align:center;
 h1,h3, h4 {
     text-align: center;
 }
+
 footer {
+        margin: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        text-align: center;
+}
+
+.footer_list{
     background-color: rgba(1, 100, 100, 0.521);
-    font-size: medium;
-    text-align: center;
-    align-items: center
+    margin: 0;
+    align-items: center;
+    display: flex;
 }
 
 header {
@@ -37,8 +68,21 @@ header {
     margin-top: 20px;
     height: 70px;
     display: flex;
-    
+   
+       
 }
+a {
+    text-decoration: none;
+    
+  }
+
+a:hover {
+    font-size: larger;
+    color: white;
+    background-color: rgba(1, 100, 100, 0.521);
+  }
+
+
 .icon_rsschool {
     display: block;
     background-image: url(https://rs.school/images/rs_school_js.svg);
@@ -51,11 +95,17 @@ header {
 
 .my_skills {
     border: 1px solid rgba(0, 0, 0, 0.226);
-    width: 500px;
     height: 100px;
     overflow-y: scroll;
     overflow-x: hidden;}
 
 #img1 {
     width: 60px;
+}
+
+#img_prof {
+    width: 300px;
+    display:block;
+    margin:auto;
+    border-radius: 30px;
 }
